@@ -1,0 +1,65 @@
+1- Explain the 4 types of support plans?
+Ans :- In AWS support plans are basic , developer , bussinees and enterprise
+a) Basic :- Basic Support offers support for account and billing questions and service quota increases. 
+           these are features of Basic Support:
+           a)One-on-one responses to account and billing questions
+           b)Support forums
+           c)Service health checks
+Developer :- Customers with a Developer Support plan have access to these additional features:
+          a) Best practice guidance
+          b)Client-side diagnostic tools
+          c)Building-block architecture support: guidance on how to use AWS products, features, and services together
+
+Business :- Use-case guidance – What AWS products, features, and services to use to best support your specific needs.
+
+Enterprise :-Application architecture guidance – Consultative guidance on how services fit together to meet your specific use case, workload, or application.
+
+2 - Explain AWS pricing models
+Ans :-a) On-demand:-Used for Compute and Database capacity there is No long-term commitments or upfront payments
+      b) Dedicated Instances:-It is Available for Amazon EC2 and Hardware is dedicated to a single customer
+      c) Spot Instances:-In this case we Purchase spare capacity with no commitments and here  Great discounts from hourly rates
+      d) Reservations:- Up to 75% discount in exchange a term commitment
+
+3- Explain types of reserved Instance
+Ans :- there are two types or reserved Instance standard reserved Instance and convertible reserved Instance
+a) Standard Reserved Instance:-
+                1- Some attributes, such as instance size, can be modified during the term
+                2- The instance family cannot be modified
+                3- You cannot exchange a Standard Reserved Instance, only modify it
+                4- Can be sold in the Reserved Instance Marketplace
+b) Convertible Reserved Instance:-
+                1-  Can be exchanged during the term for another Convertible Reserved Instance 
+                    with new attributes including instance family, instance type, platform, scope.
+                2- Cannot be sold in the Reserved Instance Marketplace.
+4- Explain 5 pricing models available for EC2?
+Ans:-Pricing models for EC2 are on demand, reserved ,spot Instances , dedicated host , dedicated instance and saving plans.
+a) On Demand :- In this model, based on the instances you choose, you pay for compute capacity per hour or per second (only for Linux Instances)
+                and no upfront payments are needed. You can increase or decrease your compute capacity to meet the demands of your application and only pay for the instance you use.
+b) Reserved model :- Amazon EC2 Reserved Instances provide you with a discount up to 75% compared to On-Demand Instance pricing.
+                     It also provides capacity reservation when used in specific Availability Zone.For applications that have predictable workload, Reserved Instances can 
+                     provide sufficient savings compared to On-Demand Instances.
+c) Spot Instance model :- Amazon EC2 Spot Instances is unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices.
+                          The Spot price of Amazon EC2 spot Instances fluctuates periodically based on supply and demand.
+d) dedicated host:- A Dedicated Host is a physical EC2 server dedicated for your use.Dedicated Hosts can help you reduce costs by allowing you to use your existing server-bound
+                    software licenses like Windows server.
+e) Saving plans:- saving plan is nothing but commitment to consistent amount of usage for particular time period.
+
+5- What are the different options available to pay for reserved Instances
+Ans :- No Upfront – No upfront payment is required. You are billed a discounted hourly rate for every hour within the term, regardless of whether the Reserved Instance is being used.
+                    No Upfront Reserved Instances are based on a contractual obligation to pay monthly for the entire term of the reservation. 
+                    A successful billing history is required before you can purchase No Upfront Reserved Instances.
+
+      Partial Upfront – A portion of the cost must be paid up front and the remaining hours in the term are billed at a discounted hourly rate,
+                  regardless of whether you’re using the Reserved Instance.
+
+      All Upfront – Full payment is made at the start of the term, with no other costs or additional hourly charges incurred for the remainder of the term, regardless of hours used.
+6- Explain about saving plane
+Ans:- saving plan is nothing but commitment to consistent amount of usage for particular time period.
+
+7 - Explain about storage pricing?
+Ans :- If you are accessing infrequently then less price will be charged and if you are accessing frequently than more charges will be applied.
+       now by using AMAZON S3 Glacier understand it more following are the important points related to it
+      1-Extremely low cost and you pay only for what you need with no commitments of upfront fees
+      2- Charged for requests and data transferred out of Glacier
+         "Amazon Glacier Select" pricing allows queries to run directly on data stored on Glacier without
+          having to retrieve the archive. Priced on amount of data scanned, returned, and number of requests initiated.
